@@ -1,6 +1,9 @@
 @echo off
+
+REM Use PATHTOYTDLP to set the path of your yt-dlp.exe
+
 echo Checking for yt-dlp.exe...
-set "ytDlpPath=.\yt-dlp.exe"
+set "ytDlpPath=PATHTOYTDLP"
 
 if exist "%ytDlpPath%" (
     echo yt-dlp.exe found. Updating...
